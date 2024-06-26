@@ -46,18 +46,18 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 ᴜᴘᴅᴀᴛᴇ 🍂', callback_data='channels'),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ✨', url=GRP_LNK)
+                    InlineKeyboardButton('🔸 ᴜᴘᴅᴀᴛᴇ 🔸', callback_data='channels'),
+                    InlineKeyboardButton('🚩 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🚩', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🗣️ ʜᴇʟᴘ ⁉️', callback_data='help'),
+                    InlineKeyboardButton('⚠️ ᴀʙᴏᴜᴛ 👤', callback_data='about')
                 ],[
-                    InlineKeyboardButton('❤‍🔥 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                 ],[
-                    InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data='subscription')
+                    InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data='subscription')
                 ],[
-                    InlineKeyboardButton('ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ',url=WRM),
-                    InlineKeyboardButton('❤️ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ', url=WCHNL)
+                    InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                    InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -70,16 +70,16 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ 𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇 ʙᴏᴛ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
+        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ ⋆ ɴᴀᴛᴀsʜᴀ ⋆ ʙᴏᴛ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
-        await m.edit_text("👀")
+        await m.edit_text("🧨")
         await asyncio.sleep(0.5)
         await m.edit_text("⚡")
         await asyncio.sleep(0.5)
         await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
-        m=await message.reply_sticker("CAACAgQAAxkBAAEKeqNlIpmeUoOEsEWOWEiPxPi3hH5q-QACbg8AAuHqsVDaMQeY6CcRojAE") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEBwf9mfEI_I8CS2QnZINrSzzUKy_8SaQACegUAAlBtCVfFgrTPJwSuLh4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -133,18 +133,18 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 ᴜᴘᴅᴀᴛᴇ 🍂', callback_data='channels'),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ✨', url=GRP_LNK)
+                    InlineKeyboardButton('🔸 ᴜᴘᴅᴀᴛᴇ 🔸', callback_data='channels'),
+                    InlineKeyboardButton('🚩 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🚩', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🗣️ ʜᴇʟᴘ ⁉️', callback_data='help'),
+                    InlineKeyboardButton('⚠️ ᴀʙᴏᴜᴛ 👤', callback_data='about')
                 ],[
-                    InlineKeyboardButton('❤‍🔥 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                 ],[
-                    InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data='subscription')
+                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='subscription')
                 ],[
-                    InlineKeyboardButton('ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ',url=WRM),
-                    InlineKeyboardButton('❤️ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ', url=WCHNL)
+                    InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                    InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -159,14 +159,14 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
         m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ 𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇 ʙᴏᴛ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
-        await m.edit_text("👀")
+        await m.edit_text("🧨")
         await asyncio.sleep(0.5)
         await m.edit_text("⚡")
         await asyncio.sleep(0.5)
         await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
-        m=await message.reply_sticker("CAACAgQAAxkBAAEKeqNlIpmeUoOEsEWOWEiPxPi3hH5q-QACbg8AAuHqsVDaMQeY6CcRojAE") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEBwf9mfEI_I8CS2QnZINrSzzUKy_8SaQACegUAAlBtCVfFgrTPJwSuLh4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -251,13 +251,13 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ],[
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
+                                InlineKeyboardButton('🚀Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
                             ]
                         ]
                     )
@@ -273,13 +273,13 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ],[
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
+                                InlineKeyboardButton('🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
                             ]
                         ]
                     )
@@ -374,14 +374,14 @@ async def start(client, message):
         k = await client.send_message(chat_id=message.from_user.id,text=f"🫂 ʜᴇʏ {message.from_user.mention}, {gtxt}\n\n‼️ ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ʟɪɴᴋ ‼️\n\n✅ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ.\n\n", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📂', url=g)
+                        InlineKeyboardButton('📥 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📥', url=g)
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                     ],[
-                        InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                        InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                        InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                        InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                     ],[
-                        InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data="buy_premium")                            
+                        InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data="buy_premium")                            
                     ]
                 ]
             )
@@ -414,14 +414,14 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📂', url=g)
+                        InlineKeyboardButton('📥 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📥', url=g)
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                     ],[
-                        InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                        InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                        InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥',url=WRM),
+                        InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                     ],[
-                        InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data="buy_premium")                            
+                        InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data="buy_premium")                            
                     ]
                 ]
             )
@@ -473,19 +473,19 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
             [
                             [
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ],[
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
+                                InlineKeyboardButton('🚀Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
                             ]
                         ]
         )
     )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>ɪᴍᴘᴏʀᴛᴀɴᴛ</u> ❗️</b>\n\n<b>ᴛʜᴇꜱᴇ ᴠɪᴅᴇᴏꜱ / ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ</b> <b><u>10 ᴍɪɴᴜᴛᴇꜱ</u> </b><b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ).</b>\n\n<b><i>📌 ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜᴇꜱᴇ ᴠɪᴅᴇᴏꜱ / ꜰɪʟᴇꜱ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.</i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>ɪᴍᴘᴏʀᴛᴀɴᴛ</u> ❗️</b>\n\n<b>ᴛʜᴇꜱᴇ ᴠɪᴅᴇᴏꜱ / ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ</b> <b><u>10 ᴍɪɴᴜᴛᴇꜱ</u> </b><b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs).</b>\n\n<b><i>📌 ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜᴇꜱᴇ ᴠɪᴅᴇᴏꜱ / ꜰɪʟᴇꜱ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.\n\nMᴏᴠɪᴇ Fɪʟᴇ 🗃️10 நிமிடங்களில் அழிக்கப்படும் அதனால் வேறு எங்காவது(sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇ) - பகிர்ந்து   ᴅᴏᴡɴʟᴏᴀᴅ செய்து கொள்ளவும்</i></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -516,14 +516,14 @@ async def start(client, message):
             k = await client.send_message(chat_id=message.from_user.id,text=f"🫂 ʜᴇʏ {message.from_user.mention}, {gtxt}\n\n✅ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ.\n\n📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 minutes to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                     [
-                        InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📂', url=g)
+                        InlineKeyboardButton('📥 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📥', url=g)
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                     ],[
-                        InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                        InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                        InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                        InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                     ],[
-                        InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data="buy_premium")                            
+                        InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data="buy_premium")                            
                     ]
                     ]
                 )
@@ -555,13 +555,13 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
             [
                             [
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ],[
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
+                                InlineKeyboardButton('🚀Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
                             ]
                         ]
         )
@@ -580,7 +580,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>20 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>20 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there\n\nMᴏᴠɪᴇ Fɪʟᴇ 🗃️10 நிமிடங்களில் அழிக்கப்படும் அதனால் வேறு எங்காவது(sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇ) - பகிர்ந்து   ᴅᴏᴡɴʟᴏᴀᴅ செய்து கொள்ளவும்</i></b>",quote=True)
             await asyncio.sleep(1200)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -621,13 +621,13 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                             [
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ],[
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
+                                InlineKeyboardButton('🚀Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @I_Am_MrAK
                             ]
                         ]
         )
@@ -635,7 +635,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>20 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>20 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there\n\nMᴏᴠɪᴇ Fɪʟᴇ 🗃️10 நிமிடங்களில் அழிக்கப்படும் அதனால் வேறு எங்காவது(sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇ) - பகிர்ந்து   ᴅᴏᴡɴʟᴏᴀᴅ செய்து கொள்ளவும்</i></b>",quote=True)
     await asyncio.sleep(1200)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -1199,7 +1199,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>ᴄᴏᴍᴍᴀɴᴅ ɪɴᴄᴏᴍᴘʟᴇᴛᴇ !\nɢɪᴠᴇ ᴍᴇ ᴄᴏᴍᴍᴀɴᴅ ᴀʟᴏɴɢ ᴡɪᴛʜ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀɴᴅ ᴀᴘɪ.\n\nꜰᴏʀᴍᴀᴛ : <code>/shortlink krishnalink.com c8dacdff6e91a8e4b4f093fdb4d8ae31bc273c1a</code>")
+        return await message.reply_text("<b>ᴄᴏᴍᴍᴀɴᴅ ɪɴᴄᴏᴍᴘʟᴇᴛᴇ !\nɢɪᴠᴇ ᴍᴇ ᴄᴏᴍᴍᴀɴᴅ ᴀʟᴏɴɢ ᴡɪᴛʜ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴀɴᴅ ᴀᴘɪ.\n\nꜰᴏʀᴍᴀᴛ : <code>/shortlink publicearn.com c8dacdff6e91a8e4b4f093fdb4d8ae31bc273c1a</code>")
     reply = await message.reply_text("<b>ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...</b>")
     shortlink_url = re.sub(r"https?://?", "", shortlink_url)
     shortlink_url = re.sub(r"[:/]", "", shortlink_url)
