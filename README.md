@@ -1,4 +1,4 @@
-po<p align="center">
+<p align="center">
   <img src="https://graph.org/file/43e0adadfddcbe2050397.jpg" alt="𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇 Logo">
 </p>
 <h1 align="center">
