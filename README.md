@@ -1,8 +1,8 @@
-<p align="center">
-  <img src="https://graph.org/file/8cd764fbdf3ccd34abe22.jpg" alt="𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇 Logo">
+po<p align="center">
+  <img src="https://graph.org/file/43e0adadfddcbe2050397.jpg" alt="𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇 Logo">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/MrAK_Movies_bot">𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇 BOT</a>
+  <a href="https://telegram.me/Natasha_LinkZ_Bot">⋆ ɴᴀᴛᴀsʜᴀ ⋆ BOT</a>
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+THE-MOVIE-PROVIDER-BOT;A+SIMPLE+AND+POWERFUL+BOT!;A+BOT+WITH+CUSTOM+URL+SHORTNER;AND+CUSTOM+TUTORIAL!;ALSO+HAVE+STREAM+ONLINE;AND+FAST+DOWNLOAD+FEATURE!;AND+MANY+MORE+FEATURES!)
@@ -54,7 +54,7 @@
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.me/MrAK_LinkZz'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
+<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://t.me/Sky_HD_Movies'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
@@ -167,7 +167,7 @@ python3 bot.py
 
 
 ## Thanks to 
- - Thanks To [𝐈 𝐀𝐦 𝙼𝚁𝗔𝗞](https://telegram.me/I_Am_MrAK) for customising this amazing [Repo](https://github.com/MrAKTech/MrAK-AutoFilter-Bot).
+ - Thanks To [SpySpidey](https://telegram.me/SpySpidey) for customising this amazing [Repo](https://github.com/MrAKTech/MrAK-AutoFilter-Bot).
 
 ## Note 🏷️
  
