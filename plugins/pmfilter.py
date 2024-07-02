@@ -98,7 +98,7 @@ async def give_filter(client, message):
             return
         else:
             return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ ✅\n\n📂 ꜰɪʟᴇꜱ ꜰᴏᴜɴᴅ : {str(total_results)}\n🔍 ꜱᴇᴀʀᴄʜ :</b> <code>{search}</code>\n\n<b>‼️ ᴛʜɪs ɪs ᴀ <u>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</u> sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\n📝 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ : 👇</b>",   
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔍 ᴊᴏɪɴ ᴀɴᴅ ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url=f"https://telegram.me/+9DBeA0skBoFlOGM1")]]))
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔍 ᴊᴏɪɴ ᴀɴᴅ ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url=f"http://telegram.me/+1dqplhFpiDZmNzc1")]]))
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -109,7 +109,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
          text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://telegram.me/+9DBeA0skBoFlOGM1")]])
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"http://telegram.me/+1dqplhFpiDZmNzc1")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -169,8 +169,8 @@ async def next_page(bot, query):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
     else:
         btn = []
@@ -186,8 +186,8 @@ async def next_page(bot, query):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     try:
@@ -401,8 +401,8 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
     else:
         btn = []
@@ -418,8 +418,8 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     if offset != "":
@@ -559,8 +559,8 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
     else:
         btn = []
@@ -576,8 +576,8 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     if offset != "":
@@ -721,8 +721,8 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     else:
@@ -739,8 +739,8 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     if offset != "":
@@ -884,8 +884,8 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     else:
@@ -902,8 +902,8 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     if offset != "":
@@ -1077,8 +1077,8 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
     else:
         btn = []
@@ -1094,8 +1094,8 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
     
     offset = 0
@@ -1723,7 +1723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://telegram.me/+9DBeA0skBoFlOGM1")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://telegram.me/+1dqplhFpiDZmNzc1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1748,7 +1748,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://telegram.me/+9DBeA0skBoFlOGM1")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://telegram.me/+1dqplhFpiDZmNzc1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1805,15 +1805,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = []
             if await db.has_premium_access(user_id):                               
                 buttons = [[
-                    InlineKeyboardButton('💻 Wᴀᴛᴄʜ & Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ', url=lazy_stream)
+                    InlineKeyboardButton('💻Wᴀᴛᴄʜ & Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ🚀', url=lazy_stream)
                 ], [
-                            InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data='buy_premium')
+                            InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data='buy_premium')
                         ],[
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ]]
             else:
                 #await query.answer("🚸 ɴᴏᴛᴇ :\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.\n\nᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ.", show_alert=True)
@@ -1823,15 +1823,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 #disable_web_page_preview=True,                  
                 #reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💸 ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ 💸", callback_data='buy_premium')]]))
                 buttons = [[
-                    InlineKeyboardButton('💻 Wᴀᴛᴄʜ & Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ', url=lazy_stream)
+                    InlineKeyboardButton('💻Wᴀᴛᴄʜ & Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ🚀', url=lazy_stream)
                 ], [
-                            InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data='buy_premium')
+                            InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data='buy_premium')
                         ],[
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ]]
     
             query.message.reply_markup = query.message.reply_markup or []
@@ -1844,15 +1844,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                    InlineKeyboardButton('💻 Wᴀᴛᴄʜ & Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ', url=lazy_stream)
+                    InlineKeyboardButton('💻Wᴀᴛᴄʜ & Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ🚀', url=lazy_stream)
                 ], [
-                            InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data='buy_premium')
+                            InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data='buy_premium')
                         ],[
-                                InlineKeyboardButton('Mᴏᴠɪᴇ🔎Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url=GRP_LNK),
+                                InlineKeyboardButton('🔥ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍',url=WRM),
-                                InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+                                InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                                InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                             ]]
                     ))  
         except Exception as e:
@@ -1878,18 +1878,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 ᴜᴘᴅᴀᴛᴇ 🍂', callback_data='channels'),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ✨', url=GRP_LNK)
+                    InlineKeyboardButton('🔸 ᴜᴘᴅᴀᴛᴇ 🔸', callback_data='channels'),
+                    InlineKeyboardButton('🚩 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🚩', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🗣️ ʜᴇʟᴘ ⁉️', callback_data='help'),
+                    InlineKeyboardButton('⚠️ ᴀʙᴏᴜᴛ 👤', callback_data='about')
                 ],[
-                    InlineKeyboardButton('❤‍🔥 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                 ],[
-                    InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data='subscription')
+                    InlineKeyboardButton('🤩 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💎', callback_data='subscription')
                 ],[
-                    InlineKeyboardButton('ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ',url=WRM),
-                    InlineKeyboardButton('❤️ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ', url=WCHNL)
+                    InlineKeyboardButton('🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔',url=WRM),
+                    InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
                     ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1937,7 +1937,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "upi_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url=USERNAME)
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ🧾', url=USERNAME)
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
@@ -1956,7 +1956,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "subscription":
         buttons = [[
-            InlineKeyboardButton('Invite', url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=Deendayal-{query.from_user.id}'),
+            InlineKeyboardButton('Invite', url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=Natasha-{query.from_user.id}'),
            # InlineKeyboardButton(f'⏳ {num_referrals}', callback_data=''),
            InlineKeyboardButton('ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data='premium_info'),
             InlineKeyboardButton('⇚Back', callback_data='start')
@@ -1976,7 +1976,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "qr_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url=USERNAME)
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ🧾', url=USERNAME)
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
@@ -1995,9 +1995,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "buy_premium":
         btn = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url=USERNAME)
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ🧾', url=USERNAME)
         ],[
-            InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data="subscription")
+            InlineKeyboardButton('🔥 ɢᴇᴛ ғʀᴇᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data="subscription")
         ],[
             InlineKeyboardButton('🗑 ᴄᴀɴᴄᴇʟ ᴘʀᴇᴍɪᴜᴍ 🗑', callback_data='close_data')
         ]]
@@ -2011,9 +2011,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "seeplans":
         btn = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', url=USERNAME)
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ🧾', url=USERNAME)
         ],[
-            InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data="subscription")
+            InlineKeyboardButton('🔥 ɢᴇᴛ ғʀᴇᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data="subscription")
         ],[
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
@@ -2054,7 +2054,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ᴅɪᴀᴍᴏɴᴅ •', callback_data='diamond'),
             InlineKeyboardButton('• ᴏᴛʜᴇʀ •', callback_data='other')
         ],[            
-            InlineKeyboardButton('💰 ɢᴇᴛ ғʀᴇᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💰', callback_data='subscription')
+            InlineKeyboardButton('🔥 ɢᴇᴛ ғʀᴇᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data='subscription')
         ],[            
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -2201,16 +2201,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('❤️𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://telegram.me/MrAK_LinkZz')
+            InlineKeyboardButton('🔥ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🔥', url='https://t.me/Sky_HD_Movies')
         ],[
-            InlineKeyboardButton('🔍 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩', url='https://telegram.me/+9DBeA0skBoFlOGM1'),
-            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://telegram.me/MrAK_Weekly_Release')
+            InlineKeyboardButton('🐬ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🐬', url='http://telegram.me/+1dqplhFpiDZmNzc1'),
+            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://telegram.me/Foxy_Flix')
             
         ],[
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://whatsapp.com/channel/0029VaZbVwQGU3BJt3IfFr2Q')
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url='https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
         ],[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://telegram.me/MrAK_LinkZz')
+            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://telegram.me/SpySpidey')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -2334,7 +2334,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton ('• ᴄʀᴇᴅɪᴛꜱ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ •', callback_data='credits'),
         ],[
             InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr'),
-            InlineKeyboardButton('👨‍💻GitHub Repo👨‍💻', url='https://github.com/MrAKTech/MrAK-AutoFilter-Bot')
+            InlineKeyboardButton('👨‍💻GitHub Repo👨‍💻', url='https://t.me/SpySpidey')
         ],[
             InlineKeyboardButton('🚫 Cʟᴏꜱᴇ', callback_data='close'),
             InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start')
@@ -2432,7 +2432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "admin":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('Contact', url='https://t.me/I_Am_MrAK')
+            InlineKeyboardButton('Contact', url='https://t.me/SpySpidey')
         ]] 
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2480,7 +2480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("👨‍💻 Contact", url='https://t.me/I_Am_MrAK')  
+                    InlineKeyboardButton("👨‍💻 Contact", url='https://t.me/SpySpidey')  
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2916,7 +2916,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             m=await message.reply_sticker("CAACAgQAAxkBAAEKSxplArIUActk4ORQuFn3DHFvBqQCOgACBQMAAnJxFyVYcSIunXgGjjAE",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://telegram.me/+9DBeA0skBoFlOGM1")]]) 
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://telegram.me/+1dqplhFpiDZmNzc1")]]) 
             )
             search = search.lower()
             find = search.split(" ")
@@ -2947,7 +2947,7 @@ async def auto_filter(client, msg, spoll=False):
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
         m=await message.reply_sticker("CAACAgQAAxkBAAEKSxplArIUActk4ORQuFn3DHFvBqQCOgACBQMAAnJxFyVYcSIunXgGjjAE",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://telegram.me/+9DBeA0skBoFlOGM1")]]) 
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://telegram.me/+1dqplhFpiDZmNzc1")]]) 
         )
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
@@ -2977,8 +2977,8 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     else:
@@ -2995,8 +2995,8 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜", url=WRM),
-            InlineKeyboardButton('❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=WCHNL)
+            InlineKeyboardButton("🔔 ᴡᴇᴇᴋʟʏ ʀᴇʟᴇᴀsᴇᴅ 🔔", url=WRM),
+            InlineKeyboardButton('☘️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ☘️', url=WCHNL)
         ])
 
     if offset != "":
@@ -3152,7 +3152,7 @@ async def advantage_spell_chok(client, msg):
         if not g_s:
             reqst_gle = query.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+9DBeA0skBoFlOGM1")
+                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+1dqplhFpiDZmNzc1")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -3189,7 +3189,7 @@ async def advantage_spell_chok(client, msg):
         if not movielist:
             reqst_gle = query.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+9DBeA0skBoFlOGM1")
+                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+1dqplhFpiDZmNzc1")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -3230,7 +3230,7 @@ async def advantage_spell_chok(client, msg):
             logger.exception(e)
             reqst_gle = mv_rqst.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+9DBeA0skBoFlOGM1")
+                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+1dqplhFpiDZmNzc1")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -3245,7 +3245,7 @@ async def advantage_spell_chok(client, msg):
         if not movies:
             reqst_gle = mv_rqst.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+9DBeA0skBoFlOGM1")
+                       InlineKeyboardButton("📝 ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ", url=f"https://telegram.me/+1dqplhFpiDZmNzc1")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
