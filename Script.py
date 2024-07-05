@@ -325,7 +325,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
  ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://www.heroku.com/'>Heroku</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
     
-    CAPTION = """ <b>@Foxy_Flix {filename}</b>
+    CAPTION = """ <b> {filename} </b>
 
 <b>•───────• ◆ •───────•
 🔆 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ  : <a href='http://telegram.me/+1dqplhFpiDZmNzc1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
