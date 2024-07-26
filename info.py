@@ -22,11 +22,11 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/43e0adadfddcbe2050397.jpg https://graph.org/file/159914185633e17726813.jpg https://graph.org/file/ef214c10d9428c432fbe2.jpg https://graph.org/file/7d0e15a2b757817aac9b8.jpg https://graph.org/file/d0e10dce8eb13e01a82f6.jpg https://graph.org/file/72e16afee07708488c024.jpg https://graph.org/file/5487252a7a691280e27c6.jpg https://graph.org/file/2999245bd29c4ac69cc8d.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/8cd764fbdf3ccd34abe22.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/47a491f296f137381036e.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Download_URL/93")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/54339913c153df35e5a54.jpg'))
-CODE = (environ.get('CODE', 'https://graph.org/file/f06e8bec01d553d934945.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/35f36537dab979a5214e4.jpg'))
+CODE = (environ.get('CODE', 'https://graph.org/file/dc0e8f7cf8bb81ad9012e.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
@@ -50,8 +50,8 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002140715188') #Channel / Group Id
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001882517877') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001882517877') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002041629720') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002041629720') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no results messages in Log Channel
@@ -83,7 +83,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002041629720')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Discussioncinepaiyan') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), True)
+IMDB = is_enabled((environ.get('IMDB', "True")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), True)
@@ -110,7 +110,7 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'mraklinkzz-4a13061a9826')
+    APP_NAME = environ.get('APP_NAME', 'colossal-mahala-cinipaiyanbot-e49bcf3e.koyeb.app')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
@@ -125,7 +125,7 @@ name = str(environ.get('name', 'LazyPrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = str(getenv('APP_NAME', 'mraklinkzz-4a13061a9826'))
+    APP_NAME = str(getenv('APP_NAME', 'colossal-mahala-cinipaiyanbot-e49bcf3e.koyeb.app'))
 
 else:
     ON_HEROKU = False
