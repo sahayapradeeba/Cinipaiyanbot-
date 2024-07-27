@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '9747098'))
 API_HASH = environ.get('API_HASH', '15384775587d976eccc8b367e92a96a3')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6163005421:AAGyIa3RVaIKr0TS-tHX2uTWsVIU2EHjNmI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7324083761:AAFHykJNu4yYhGRJtWnXB18CLLnvdjTn9ns")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/43e0adadfddcbe2050397.jpg https://graph.org/file/159914185633e17726813.jpg https://graph.org/file/ef214c10d9428c432fbe2.jpg https://graph.org/file/7d0e15a2b757817aac9b8.jpg https://graph.org/file/d0e10dce8eb13e01a82f6.jpg https://graph.org/file/72e16afee07708488c024.jpg https://graph.org/file/5487252a7a691280e27c6.jpg https://graph.org/file/2999245bd29c4ac69cc8d.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/342c80796b812702c7f4a.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/47a491f296f137381036e.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Download_URL/93")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
