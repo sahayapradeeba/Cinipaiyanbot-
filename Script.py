@@ -1,24 +1,24 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n\n
+    START_TXT = """<b>ʜᴇʏ {}, {}\n
 I ᴀᴍ Aᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ Pᴏᴡᴇʀғᴜʟʟ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇ ʙᴏᴛ [AWESOME Fɪʟᴇ Sᴛᴏʀᴇ ʙᴏᴛ] 
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ 
 Jᴜsᴛ Aᴅᴅ Tᴏ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ Wɪᴛʜ Aᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴ I ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ Mᴏᴠɪᴇ Gʀᴏᴜᴘ😍
 
-🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a></b>"""
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Team_Tom24'>♔🍃⃝🦋 CJ.TOM❣️</a></b>"""
 
     GSTART_TXT = """<b>ʜᴇʏ {},\n\nI ᴀᴍ Aᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ Pᴏᴡᴇʀғᴜʟʟ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇ ʙᴏᴛ [AWESOME Fɪʟᴇ Sᴛᴏʀᴇ ʙᴏᴛ] 
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ 
 Jᴜsᴛ Aᴅᴅ Tᴏ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ Wɪᴛʜ Aᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴ I ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ Mᴏᴠɪᴇ Gʀᴏᴜᴘ😍
 
-🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a></b>"""
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Team_Tom24'>♔🍃⃝🦋 CJ.TOM❣️</a></b>"""
     
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
-🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a></b>"""
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Team_Tom24'>♔🍃⃝🦋 CJ.TOM❣️</a></b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Natasha_LinkZ_Bot>⋆ ɴᴀᴛᴀsʜᴀ ⋆</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=http://t.me/Cinestuffs_Movies_Bot>◈ᴄɪɴᴇsᴛᴜғғs◈</a>
  ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
@@ -88,9 +88,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     OWNER_INFO = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐
-• ᴜꜱᴇʀɴᴀᴍᴇ : @SpySpidey
-• ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ : <a href='t.me/SpySpidey'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Bʏɴғ ♔🍃⃝🦋 CJ.TOM❣️ | 🇮🇳 |
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Team_Tom24
+• ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ : <a href='t.me/Team_Tom24'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
 
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
@@ -148,14 +148,14 @@ Iᴅ = <code>{}</code>
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 
-Bʏ @Foxy_Flix"""
+Bʏ @Cinestuffs_Movies_Bot"""
 
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @Foxy_Flix"""
+Bʏ @Cinestuffs_Movies_Bot"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
@@ -175,7 +175,7 @@ Bʏ @Foxy_Flix"""
 
 2) ᴛʏᴘᴇ ɴᴀᴍᴇ ᴡɪᴛʜ ʏᴇᴀʀ
 
-3) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs https://t.me/Suport_Chat_BOT</b>"""
+3) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs @admin</b>"""
 
     I_CUD_NT = """<b>ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 
@@ -185,7 +185,7 @@ Bʏ @Foxy_Flix"""
 
 2) ᴛʏᴘᴇ ɴᴀᴍᴇ ᴡɪᴛʜ ʏᴇᴀʀ
 
-3) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs https://t.me/Suport_Chat_BOT</b>"""
+3) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs @admin</b>"""
 
     MVE_NT_FND = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ 😕
 
@@ -211,7 +211,7 @@ Bʏ @Foxy_Flix"""
 
 ᴀʟʟ ᴛʜᴇ ꜰɪʟᴇꜱ ɪɴ ᴛʜɪꜱ ʙᴏᴛ ᴀʀᴇ ꜰʀᴇᴇʟʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛʜᴇ ɪɴᴛᴇʀɴᴇᴛ ᴏʀ ᴘᴏꜱᴛᴇᴅ ʙʏ ꜱᴏᴍᴇʙᴏᴅʏ ᴇʟꜱᴇ. ᴊᴜꜱᴛ ꜰᴏʀ ᴇᴀꜱʏ ꜱᴇᴀʀᴄʜɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɪɴᴅᴇxɪɴɢ ꜰɪʟᴇꜱ ᴡʜɪᴄʜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴜᴘʟᴏᴀᴅᴇᴅ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ᴡᴇ ʀᴇꜱᴘᴇᴄᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀᴡꜱ ᴀɴᴅ ᴡᴏʀᴋꜱ ɪɴ ᴄᴏᴍᴘʟɪᴀɴᴄᴇ ᴡɪᴛʜ ᴅᴍᴄᴀ ᴀɴᴅ ᴇᴜᴄᴅ. ɪꜰ ᴀɴʏᴛʜɪɴɢ ɪꜱ ᴀɢᴀɪɴꜱᴛ ʟᴀᴡ ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ꜱᴏ ᴛʜᴀᴛ ɪᴛ ᴄᴀɴ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ᴀꜱᴀᴘ. ɪᴛ ɪꜱ ꜰᴏʀʙɪʙʙᴇɴ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ꜱᴛʀᴇᴀᴍ, ʀᴇᴘʀᴏᴅᴜᴄᴇ, ꜱʜᴀʀᴇ ᴏʀ ᴄᴏɴꜱᴜᴍᴇ ᴄᴏɴᴛᴇɴᴛ ᴡɪᴛʜᴏᴜᴛ ᴇxᴘʟɪᴄɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ᴄʀᴇᴀᴛᴏʀ ᴏʀ ʟᴇɢᴀʟ ᴄᴏᴘʏʀɪɢʜᴛ ʜᴏʟᴅᴇʀ. ɪꜰ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴠɪᴏʟᴀᴛɪɴɢ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ, ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ʀᴇꜱᴘᴇᴄᴛɪᴠᴇ ᴄʜᴀɴɴᴇʟꜱ ꜰᴏʀ ʀᴇᴍᴏᴠᴀʟ. ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇꜱ ɴᴏᴛ ᴏᴡɴ ᴀɴʏ ᴏꜰ ᴛʜᴇꜱᴇ ᴄᴏɴᴛᴇɴᴛꜱ, ɪᴛ ᴏɴʟʏ ɪɴᴅᴇx ᴛʜᴇ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ. 
 
-🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a></b>"""
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Team_Tom24'>♔ CJ.TOM❣️ ࿐</a></b>"""
 
     USERS_TXT = """👋 ʜᴇʏ {},
 
@@ -317,7 +317,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     CREDITS_TXT = """<b>
 ❤️‍🩹 <u>ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴇᴠᴇʀʏᴏɴᴇ</u>
 
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Natasha_LinkZ_Bot>⋆ ɴᴀᴛᴀsʜᴀ ⋆</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=http://t.me/Cinestuffs_Movies_Bot>ᴄɪɴᴇsᴛᴜғғs</a>
  ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
@@ -325,13 +325,13 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
  ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://www.heroku.com/'>Heroku</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
     
-    CAPTION = """ <b> {filename} </b>
+    CAPTION = """ <b> {file_name} </b>
 
 <b>•───────• ◆ •───────•
-🔆 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ  : <a href='http://telegram.me/+1dqplhFpiDZmNzc1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🌟 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Foxy_Flix'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+🔆 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ  : <a href='https://t.me/+AE3rZbaPfgNmODI1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+🌟 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/cinepaiyan_Movies'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 •───────• ◆ •───────•
-⚙ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/Sky_HD_Movies'>sᴋʏ ʜᴅ ᴍᴏᴠɪᴇs </a></b>"""
+⚙ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/cinepaiyan_Movies'>𝐂𝐈𝐍𝐄𝐏𝐀𝐈𝐘𝐀𝐍</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
@@ -342,7 +342,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 📆Release Date: {release_date}
 🔊AUDIO: {languages}
 
-💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/Sky_HD_Movies'>sᴋʏ ʜᴅ ᴍᴏᴠɪᴇs </a></b>
+💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/cinepaiyan_Movies'>𝐂𝐈𝐍𝐄𝐏𝐀𝐈𝐘𝐀𝐍</a></b>
 """
     
 
@@ -354,7 +354,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-Bʏ @Sky_HD_Movies</b>"""
+Bʏ @cinepaiyan_Movies</b>"""
 
     LOGO = """
 
@@ -895,7 +895,7 @@ Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ /buy_premium"""
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/I_Am_MrAK'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/Team_Tom24'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
@@ -938,5 +938,5 @@ Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ /buy_premium"""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developer -
 
--Dev [Owner of this bot ]<a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a>
+-Dev [ Bot Developer ]<a href='https://t.me/SpySpidey'>♔ Sᴘʏ Sᴘɪᴅᴇʏ࿐</a>
 """
