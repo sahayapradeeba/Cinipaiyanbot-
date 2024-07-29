@@ -110,10 +110,10 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'colossal-mahala-cinipaiyanbot-e49bcf3e.koyeb.app')
+    APP_NAME = environ.get('APP_NAME', 'rich-cordy-vinarasan22-aa67e3db.koyeb.app')
 else:
     ON_HEROKU = False
-BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'colossal-mahala-cinipaiyanbot-e49bcf3e.koyeb.app'))
+BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'rich-cordy-vinarasan22-aa67e3db.koyeb.app'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
 URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{}/".format(FQDN, PORT)
@@ -125,7 +125,7 @@ name = str(environ.get('name', 'LazyPrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = str(getenv('APP_NAME', 'colossal-mahala-cinipaiyanbot-e49bcf3e.koyeb.app'))
+    APP_NAME = str(getenv('APP_NAME', 'rich-cordy-vinarasan22-aa67e3db.koyeb.app'))
 
 else:
     ON_HEROKU = False
